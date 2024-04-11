@@ -2,6 +2,6 @@
   "rules": {
     "quotes": "off",
     "comma-dangle": "off",
-    "semi": "off",
-  },
+    "semi": "off"
+  }
 }
