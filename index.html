@@ -133,6 +133,47 @@
         </div>
       </div>
     </header>
+    <main>
+      <section>
+        <div class="flex justify-center">
+          <img
+            class="h-48 w-auto"
+            src="/src/assets/images/CalorieCuisine.svg"
+            alt="Calorie Cuisine logo"
+          />
+        </div>
+        <div class="flex justify-center">
+          <div class="w-full max-w-md">
+            <label
+              for="product"
+              class="block text-sm font-medium text-calorie-salmon text-center"
+            >
+              Search for your calories
+            </label>
+            <div class="flex mt-2 w-full">
+              <input
+                type="text"
+                name="product"
+                id="product"
+                class="block w-full rounded-l-md border-0 pl-2 py-1 text-sm shadow-sm ring-1 ring-inset ring-calorie-orange placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-calorie-orange sm:text-sm"
+                placeholder="Enter product here"
+              />
+              <button
+                id="search-button"
+                class="flex items-center justify-center px-4 py-2 bg-calorie-orange rounded-r-md hover:bg-orange-400"
+              >
+                <img
+                  src="/src/assets/icons/icons8-search.svg"
+                  alt="Search icon"
+                  class="h-4 w-4"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
   </body>
   <script src="src/scripts/script.js"></script>
 </html>
