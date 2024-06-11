@@ -27,7 +27,7 @@ async function searchFood() {
   document.getElementById("resultsSection").style.display = "block";
   const query = document.getElementById("searchInput").value;
   const response = await fetch(
-    `https://api.nal.usda.gov/fdc/v1/foods/search?api_key=8jZmK3CrcX8CddkYCGwhyLcGEGWxnJAMDQ7mGxuo&query=${encodeURIComponent(
+    `https://api.nal.usda.gov/fdc/v1/foods/search?api_key=DEMO-KEY&query=${encodeURIComponent(
       query
     )}&pageSize=1`
   );
