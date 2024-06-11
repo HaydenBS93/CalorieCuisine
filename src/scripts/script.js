@@ -12,7 +12,7 @@ document
 
 async function getCalories() {
   const response = await fetch(
-    "curl https://api.nal.usda.gov/fdc/v1/foods/list?api_key=8jZmK3CrcX8CddkYCGwhyLcGEGWxnJAMDQ7mGxuo"
+    "curl https://api.nal.usda.gov/fdc/v1/foods/list?api_key={DEMO-KEY}"
   );
   const data = await response.json();
 
