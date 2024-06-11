@@ -48,18 +48,18 @@
         </div>
         <div class="hidden lg:flex lg:gap-x-4">
           <a
-            href="#"
-            class="text-sm font-semibold leading-6 text-calorie-salmon hover:text-red-500"
+            href="/index.html"
+            class="text-sm font-semibold text-calorie-salmon hover:text-red-500"
             >Home</a
           >
           <a
-            href="#"
-            class="text-sm font-semibold leading-6 text-calorie-salmon hover:text-red-500"
+            href="/about.html"
+            class="text-sm font-semibold text-calorie-salmon hover:text-red-500"
             >About</a
           >
           <a
-            href="#"
-            class="text-sm font-semibold leading-6 text-calorie-salmon hover:text-red-500"
+            href="/contact.html"
+            class="text-sm font-semibold text-calorie-salmon hover:text-red-500"
             >Contact</a
           >
         </div>
@@ -77,12 +77,12 @@
           class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
         >
           <div class="flex items-center justify-between">
-            <a href="#">
+            <a href="/index.html">
               <span class="sr-only">Calorie Cuisine</span>
               <img
-                class="h-8 w-auto"
+                class="h-16 w-auto"
                 src="/src/assets/images/CalorieCuisine.svg"
-                alt=""
+                alt="Calorie Cuisine logo"
               />
             </a>
             <button
@@ -111,18 +111,18 @@
             <div class="text-right">
               <div class="space-y-2 py-6">
                 <a
-                  href="#"
-                  class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-calorie-salmon hover:bg-calorie-pink/30"
+                  href="/index.html"
+                  class="-mx-3 block rounded-lg px-3 py-2 text-sm font-semibold text-calorie-salmon hover:bg-calorie-pink/30"
                   >Home</a
                 >
                 <a
-                  href="#"
-                  class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-calorie-salmon hover:bg-calorie-pink/30"
+                  href="/about.html"
+                  class="-mx-3 block rounded-lg px-3 py-2 text-sm font-semibold text-calorie-salmon hover:bg-calorie-pink/30"
                   >About</a
                 >
                 <a
-                  href="#"
-                  class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-calorie-salmon hover:bg-calorie-pink/30"
+                  href="/contact.html"
+                  class="-mx-3 block rounded-lg px-3 py-2 text-sm font-semibold text-calorie-salmon hover:bg-calorie-pink/30"
                   >Contact</a
                 >
               </div>
@@ -135,7 +135,7 @@
       <section>
         <div class="flex justify-center">
           <img
-            class="h-48 w-auto"
+            class="w-auto h-28 md:h-40 lg:h-48"
             src="/src/assets/images/CalorieCuisine.svg"
             alt="Calorie Cuisine logo"
           />
@@ -144,7 +144,7 @@
           <div class="w-full max-w-md">
             <label
               for="product"
-              class="block text-sm font-medium text-calorie-salmon text-center"
+              class="block text-xs font-light text-calorie-salmon text-center md:text-sm lg:text-base"
             >
               Search for your calories
             </label>
@@ -153,7 +153,7 @@
                 type="text"
                 name="product"
                 id="product"
-                class="block w-full rounded-l-md border-0 pl-2 py-1 text-sm shadow-sm ring-1 ring-inset ring-calorie-orange placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-calorie-orange sm:text-sm"
+                class="block w-full rounded-l-md border-0 pl-2 py-1 text-sm text-calorie-salmon shadow-sm ring-1 ring-inset ring-calorie-orange placeholder:text-calorie-orange focus:ring-2 focus:ring-inset focus:ring-calorie-orange sm:text-sm"
                 placeholder="Enter product here"
               />
               <button
@@ -203,24 +203,24 @@
     <footer
       class="max-w-7xl mx-auto overflow-hidden py-4 px-6 space-y-4 border border-t border-t-calorie-orange"
     >
-      <nav class="flex justify-center space-x-12">
+      <nav class="flex justify-center space-x-4 md:space-x-8 lg:space-x-12">
         <a
-          href="#"
-          class="text-sm font-semibold text-calorie-salmon hover:text-red-500"
+          href="/index.html"
+          class="text-xs font-semibold text-calorie-salmon md:text-sm lg:text-base hover:text-red-500"
           >Home</a
         >
         <a
-          href="#"
-          class="text-sm font-semibold text-calorie-salmon hover:text-red-500"
+          href="/about.html"
+          class="text-xs font-semibold text-calorie-salmon md:text-sm lg:text-base hover:text-red-500"
           >About</a
         >
         <a
-          href="#"
-          class="text-sm font-semibold text-calorie-salmon hover:text-red-500"
+          href="/contact.html"
+          class="text-xs font-semibold text-calorie-salmon md:text-sm lg:text-base hover:text-red-500"
           >Contact</a
         >
       </nav>
-      <div class="flex justify-center space-x-10">
+      <div class="flex justify-center space-x-4 lg:space-x-10">
         <a href="#" class="text-calorie-main hover:text-calorie-navy">
           <span class="sr-only">Instagram</span>
           <svg
@@ -249,7 +249,10 @@
             />
           </svg>
         </a>
-        <a href="#" class="text-calorie-main hover:text-calorie-navy">
+        <a
+          href="https://github.com/HaydenBS93/CalorieCuisine"
+          class="text-calorie-main hover:text-calorie-navy"
+        >
           <span class="sr-only">GitHub</span>
           <svg
             class="h-6 w-6"
@@ -265,7 +268,7 @@
           </svg>
         </a>
       </div>
-      <p class="text-center text-xs text-calorie-salmon">
+      <p class="text-center text-[10px] text-calorie-salmon">
         &copy; 2024 Calorie Cuisine, Inc. All rights reserved.
       </p>
     </footer>
